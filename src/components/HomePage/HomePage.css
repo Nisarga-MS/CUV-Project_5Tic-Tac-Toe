@@ -1,0 +1,82 @@
+.home {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4%;
+  text-align: center;
+
+
+}
+.home,
+ .select {
+  width: 307px;
+  height: 154px;
+  margin: auto;
+  border-radius: 7px;
+  background-color: #1f3540;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.55);
+}
+.select h3 {
+  padding-top: 16px;
+  margin-top: 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.select .player-choice {
+  box-sizing: border-box;
+  display: flex;
+  margin: 16px auto;
+  width: 95%;
+  height: 30%;
+  background-color: #192a32;
+  border-radius: 5px;
+  padding: 2.8%;
+}
+.select .player-choice div {
+  flex: 1 1;
+  height: 98%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.select .player-choice div svg {
+  padding-top: 1%;
+}
+.select .selected {
+  background-color: #d9d9d9;
+}
+.new-game {
+  margin-top: 16px;
+}
+.new-game button {
+  width: 307px;
+  height: 40px;
+  color: #192a32;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+}
+.new-game button:nth-of-type(1) {
+  background-color: #f2b237;
+}
+.new-game button:nth-of-type(2) {
+  background-color: #31c4be;
+}
+.invite button {
+  width: 220px;
+  height: 32px;
+  background-color: #f2b237;
+  color: #192a32;
+  margin-top: 48px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+}
+button:active {
+  scale: 0.9;
+}

@@ -1,0 +1,32 @@
+.game-box {
+  width: 416px; /* 416*/
+  height: 650px;
+  background-color: #192a32;
+  border-radius: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75); */
+  /* box-shadow: rgba(0, 0, 0, 0.85) 8px 12px 12px; */
+  margin-bottom: 50px;
+
+}
+.game-box .symbol {
+  position: absolute;
+  top: 105px; /* 139.2*  keeeeeepppp track*/
+}
+@keyframes slide-text {
+  0% {
+    left: 11rem;
+  }
+  100% {
+    left: 3.5rem;
+  }
+}
+.game-box .game-over-box {
+  background-color: rgba(0, 0, 0, 0.73);
+  position: absolute;
+  z-index: 5;
+}

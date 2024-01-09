@@ -1,0 +1,93 @@
+.play-area {
+    width: 77%;
+    margin: 0 auto;
+    text-align: center;
+}
+.play-area .top-layer, .play-area .scores {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 16px auto;
+    gap: 1.88rem;
+}
+.play-area .top-layer {
+    margin-top: 0;
+}
+.play-area .top-layer div:nth-of-type(1) {
+    width: 32px;
+}
+.play-area .top-layer .turn, .play-area .top-layer .refresh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-area .top-layer .turn {
+    box-sizing: border-box;
+    width:86px;
+    height:40px; /* 39px*/
+    background: #1F3540;
+    color: #a8bec9 ;
+    border-radius: 10px;
+    border-top: 2px solid;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+.play-area .top-layer .turn span {
+    height: 55px; /*56px */
+    font-size: 40px;
+    font-weight: 600;
+}
+.play-area .top-layer .refresh {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background-color: #a7bdc8;
+    border-radius: 5px;
+    margin-top: 5px; /*4.8 */
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.play-area .tic-tac-cards {
+    width: 100%;
+    margin: 16px auto;
+    display: grid;
+    grid-template-columns: min-content min-content min-content;
+    justify-content: space-between;
+    row-gap: 1.88rem;
+}
+.play-area .tic-tac-cards div {
+    width: 86px; /*  cant it be 85*/
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F3540;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+   
+}
+.play-area .scores div {
+    box-sizing: border-box;
+    width: 86px;
+    height: 50px;/* 49*/
+    color: #1E1E1E;
+    padding-top: 8px;
+    border-radius: 10px;
+    font-size: 11px; /* 10.8*/
+    font-weight: 600; 
+}
+.play-area .scores div h3 {
+    font-size: 14px;
+    margin: 0;
+    color: #1E1E1E; 
+}
+.play-area .scores div:nth-of-type(1) {
+    background-color: #31C4BE;
+}
+.play-area .scores div:nth-of-type(2) {
+    background-color: #a8bec9;
+}
+.play-area .scores div:nth-of-type(3) {
+    background-color: #F2B237;
+}
