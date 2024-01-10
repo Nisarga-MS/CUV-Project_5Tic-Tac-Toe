@@ -9,9 +9,8 @@
   align-items: center;
   position: relative;
   /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75); */
-  /* box-shadow: rgba(0, 0, 0, 0.85) 8px 12px 12px; */
+  box-shadow: rgba(0, 0, 0, 0.85) 8px 12px 10px;
   margin-bottom: 50px;
-
 }
 .game-box .symbol {
   position: absolute;
@@ -29,4 +28,7 @@
   background-color: rgba(0, 0, 0, 0.73);
   position: absolute;
   z-index: 5;
+  
 }
+
+

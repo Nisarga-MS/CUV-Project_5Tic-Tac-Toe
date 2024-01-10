@@ -5,7 +5,6 @@ import PlayArea from "../Play/PlayArea";
 import GameOver from "../GameOver/GameOver";
 import "./Game.css";
 
-
 let gameOverProps = {};
 function Game() {
   const [player, setPlayer] = useState("O");
@@ -107,7 +106,7 @@ function Game() {
       )}
 
       {gameOver && (
-        <div className="game-box game-over-box">
+        <div className="  game-over-box">
           <GameOver
             {...gameOverProps}
             handleQuit={handleQuit}

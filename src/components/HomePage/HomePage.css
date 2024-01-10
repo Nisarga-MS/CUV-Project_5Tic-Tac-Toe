@@ -3,14 +3,13 @@
   margin: 0 auto;
   padding-top: 4%;
   text-align: center;
-
-
 }
 .home,
- .select {
+.select {
   width: 307px;
   height: 154px;
-  margin: auto;
+  /* margin: auto; */
+  margin-top: -70px;
   border-radius: 7px;
   background-color: #1f3540;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.55);
@@ -64,6 +63,7 @@
 }
 .new-game button:nth-of-type(2) {
   background-color: #31c4be;
+  /* margin-top: 2px; */
 }
 .invite button {
   width: 220px;
@@ -80,3 +80,4 @@
 button:active {
   scale: 0.9;
 }
+/* some problem */
