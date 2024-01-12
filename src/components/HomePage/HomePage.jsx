@@ -17,6 +17,7 @@ function HomePage({ player, swapPlayer, gameStarts }) {
         backgroundColor: "#192A32",
         color: "#F2B237",
         fontFamily: "DM Sans , sans-serif",
+        fontWeight: "800px",
       },
     });
   };
@@ -51,7 +52,7 @@ function HomePage({ player, swapPlayer, gameStarts }) {
       </div>
       <div className="invite">
         <button onClick={handleInviteClick} ref={inviteLinkRef}>
-        Invite your friend
+          Invite your friend
         </button>
       </div>
       <Toaster />
