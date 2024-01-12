@@ -24,7 +24,7 @@
 .play-area .top-layer .turn {
     box-sizing: border-box;
     width:86px;
-    height:40px; /* 39px*/
+    height:40px;
     background: #1F3540;
     color: #a8bec9 ;
     border-radius: 10px;
@@ -34,7 +34,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
 }
 .play-area .top-layer .turn span {
-    height: 55px; /*56px */
+    height: 55px; 
     font-size: 40px;
     font-weight: 600;
 }
@@ -44,7 +44,7 @@
     height: 32px;
     background-color: #a7bdc8;
     border-radius: 5px;
-    margin-top: 5px; /*4.8 */
+    margin-top: 5px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
@@ -57,7 +57,7 @@
     row-gap: 1.88rem;
 }
 .play-area .tic-tac-cards div {
-    width: 86px; /*  cant it be 85*/
+    width: 86px;
     height: 86px;
     display: flex;
     align-items: center;
@@ -70,11 +70,11 @@
 .play-area .scores div {
     box-sizing: border-box;
     width: 86px;
-    height: 50px;/* 49*/
+    height: 50px;
     color: #1E1E1E;
     padding-top: 8px;
     border-radius: 10px;
-    font-size: 11px; /* 10.8*/
+    font-size: 11px;
     font-weight: 600; 
 }
 .play-area .scores div h3 {

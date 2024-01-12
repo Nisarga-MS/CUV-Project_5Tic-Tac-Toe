@@ -17,7 +17,6 @@ function HomePage({ player, swapPlayer, gameStarts }) {
         backgroundColor: "#192A32",
         color: "#F2B237",
         fontFamily: "DM Sans , sans-serif",
-        // fontWeight: "800",
       },
     });
   };

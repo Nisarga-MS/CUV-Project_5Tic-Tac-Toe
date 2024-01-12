@@ -106,7 +106,7 @@ function Game() {
       )}
 
       {gameOver && (
-        <div className="  game-over-box">
+        <div className=" blur-bg game-over-box">
           <GameOver
             {...gameOverProps}
             handleQuit={handleQuit}

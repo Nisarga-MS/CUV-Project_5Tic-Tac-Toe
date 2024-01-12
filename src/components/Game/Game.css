@@ -1,5 +1,5 @@
 .game-box {
-  width: 416px; /* 416*/
+  width: 416px;
   height: 650px;
   background-color: #192a32;
   border-radius: 43px;
@@ -8,13 +8,12 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75); */
-  box-shadow: rgba(0, 0, 0, 0.85) 8px 12px 10px;
+  box-shadow: rgba(0, 0, 0, 0.85) 6px 8px 10px;
   margin-bottom: 50px;
 }
 .game-box .symbol {
   position: absolute;
-  top: 105px; /* 139.2*  keeeeeepppp track*/
+  top: 105px;
 }
 @keyframes slide-text {
   0% {
@@ -28,7 +27,18 @@
   background-color: rgba(0, 0, 0, 0.73);
   position: absolute;
   z-index: 5;
-  
 }
-
-
+.blur-bg {
+  width: 408px;
+  height: 640px;
+  margin-top: 5px;
+  background-color: #192a32;
+  border-radius: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  margin-bottom: 50px;
+}
